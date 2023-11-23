@@ -148,6 +148,13 @@ body{
     .menu_omobi{
         display: none;
     }
+    
+}
+.buttonmobi{
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 .menumobile{
     display: none;
