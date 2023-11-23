@@ -30,7 +30,7 @@ body{
     padding: 5% 0% 0% 5%;
 }
 .cabecalho__menu{
-    display: flex;
+
     gap: 100px;
 }
 .cabecalho__menu__link{
