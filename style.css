@@ -137,21 +137,6 @@ body{
     }
 }
 @media screen and (max-width: 768px) {
-    body{
-    width: 720px;
-    height: 1843px;
-    top: 48px;  
-    left: 2658px;
-    border-radius: 32px;
-    }
-
-    .cabecalho {
-    width: Fixed (567px);
-    height: Hug (29px);
-    top: 50px;
-    left: 77px;
-    gap: 32px;
-    }
     .menumobile{
         display: flex;
         flex-direction: column;
