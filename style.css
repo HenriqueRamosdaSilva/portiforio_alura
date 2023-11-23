@@ -14,18 +14,12 @@
     margin: 0;
     padding: 0;
 }
-
-
 body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
     background-image: url(imag/Código\ 1.png)  ;
-    
-
 }
-
-
 .cabecalho{
     padding: 5% 0% 0% 5%;
 }
@@ -75,8 +69,6 @@ body{
     line-height: 56px;
     letter-spacing: 0em;
     text-align: left;
-    
-
 }
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-krona);
@@ -160,6 +152,16 @@ body{
     left: 77px;
     gap: 32px;
     }
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 32px 0;
+    }
+}
+.menumobile{
+    display: none;
 }
 .imagfooter{
     padding: 40px;
