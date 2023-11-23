@@ -143,6 +143,8 @@ body{
         align-items: center;
         gap: 16px;
         padding: 32px 0;
+        background: #2B2B2BF2;
+
     }
 }
 .menumobile{
