@@ -27,6 +27,10 @@ body{
     display: flex;
     gap: 10%;
 }
+.cabecalho__menu__mobile{
+    display: flex;
+    gap: 10%;
+}
 .cabecalho__menu__link{
     font-family: var(--font-mont);
     font-size: 24px;
