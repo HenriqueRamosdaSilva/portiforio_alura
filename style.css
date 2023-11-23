@@ -152,7 +152,7 @@ body{
 }
 .buttonmobi{
     width: 32px;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
     border: none;
     cursor: pointer;
 }
