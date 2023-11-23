@@ -21,6 +21,8 @@ body{
     color: var(--cor-secundaria);
     box-sizing: border-box;
     background-image: url(imag/Código\ 1.png)  ;
+    
+
 }
 
 
@@ -41,6 +43,7 @@ body{
 .apresentacao{
     padding: 8% 15%;
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
