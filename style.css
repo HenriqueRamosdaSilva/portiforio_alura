@@ -17,7 +17,6 @@
 
 
 body{
-    display: flex;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
@@ -138,7 +137,6 @@ body{
         justify-content: center;
     }
     .apresentacao{
-        flex-direction: column-reverse;
         padding: 5%;
     }
     .apresentacao__conteudo{
@@ -218,7 +216,4 @@ form input{
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
-
-
-
 }
