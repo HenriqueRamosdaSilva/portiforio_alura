@@ -216,8 +216,3 @@ form input{
     font-weight: 400;
     line-height: 36px;
 }
-.container{
-    max-width: 1200;
-    margin: 0 auto;
-    background-color: aqua;
-}
