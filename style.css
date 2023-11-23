@@ -27,10 +27,6 @@ body{
     display: flex;
     gap: 10%;
 }
-.cabecalho__menu__mobile{
-    display: flex;
-    gap: 10%;
-}
 .cabecalho__menu__link{
     font-family: var(--font-mont);
     font-size: 24px;
@@ -219,4 +215,9 @@ form input{
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+}
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+    background-color: aqua;
 }
