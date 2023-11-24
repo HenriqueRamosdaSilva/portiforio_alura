@@ -22,6 +22,7 @@ body{
 }
 .cabecalho{
     padding: 5% 0% 0% 5%;
+    position: relative;
 }
 .cabecalho__menu{
     display: flex;
@@ -135,8 +136,17 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+    .buttonmobi{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px) {
+    .header{
+        padding: 0%;
+    }
+    .buttonmobi{
+        display: initial;
+    }
     .cabecalho__menu{
         display: flex;
         flex-direction: column;
@@ -148,15 +158,24 @@ body{
     .menu_omobi{
         display: none;
     }
+    .invisivel{
+        display: none;
+    }
     
 }
+
 .buttonmobi{
+    display: initial;
     width: 32px;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+
 }
-.menumobile{
+.menuMobile{
     display: none;
 }
 .imagfooter{
